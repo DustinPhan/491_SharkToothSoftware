@@ -4,3 +4,5 @@ https://csulb-my.sharepoint.com/:x:/g/personal/andrew_dutton01_student_csulb_edu
 Link to Trello:
 https://trello.com/invite/b/DIz31CxX/ATTI9eacdb8d011dd8f78b31cb508fb44ba434A465EB/491a-group-project
 
+Link to the CPI, RCM, SCM document:
+https://csulb-my.sharepoint.com/:x:/g/personal/andrew_dutton01_student_csulb_edu/EQyUes6Rv69DglBQcvpmryEBOSpBy9fkfNFrL0wKn5eshA?e=hyLia0
