@@ -9,13 +9,13 @@ BEFORE RUNNING THESE COMMANDS you need to be in the directory: ~root/restaurantS
 
 Needed installs:
 
+django
+
 pymongo==3.12.3
 
 pytz
 
 djongo
-
-django
 
 Run the server: 
 
