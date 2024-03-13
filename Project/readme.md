@@ -5,7 +5,7 @@ Django documentation: https://docs.djangoproject.com/en/5.0/intro/tutorial02/, h
 How to run
 First setup mongo db with the database name "restaurant-db"
 
-BEFORE RUNNING THESE COMMANDS you need to be in the directory: ~root/mysite
+BEFORE RUNNING THESE COMMANDS you need to be in the directory: ~root/restaurantSite
 
 Needed installs:
 
