@@ -1,6 +1,6 @@
 Djongo setup: https://www.mongodb.com/compatibility/mongodb-and-django
-Django documentation: https://docs.djangoproject.com/en/5.0/intro/tutorial02/
-More: https://docs.djangoproject.com/en/5.0/intro/tutorial01/
+
+Django documentation: https://docs.djangoproject.com/en/5.0/intro/tutorial02/, https://docs.djangoproject.com/en/5.0/intro/tutorial01/
 
 How to run
 First setup mongo db with the database name "restaurant-db"
