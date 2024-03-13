@@ -8,10 +8,15 @@ First setup mongo db with the database name "restaurant-db"
 BEFORE RUNNING THESE COMMANDS you need to be in the directory: ~root/mysite
 
 Needed installs:
+
 pymongo==3.12.3
+
 pytz
+
 djongo
+
 django
+
 
 
 Run the server: python manage.py runserver
