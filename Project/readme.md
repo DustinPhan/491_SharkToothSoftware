@@ -17,11 +17,8 @@ djongo
 
 django
 
-
-
 Run the server: python manage.py runserver
-Migrate the database:  python manage.py makemigrations
-					   python manage.py migrate
+Migrate the database:  python manage.py makemigrations, python manage.py migrate
 
 Must create an admin user: python manage.py createsuperuser
 This will allow you to create a local admin user
