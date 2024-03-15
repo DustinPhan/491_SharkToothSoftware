@@ -2,29 +2,34 @@ Djongo setup: https://www.mongodb.com/compatibility/mongodb-and-django
 
 Django documentation: https://docs.djangoproject.com/en/5.0/intro/tutorial02/, https://docs.djangoproject.com/en/5.0/intro/tutorial01/
 
-How to run
-First setup mongo db with the database name "restaurant-db"
+How to run:
+**FIRST cd to ~/Project/restaurantSite**
 
-BEFORE RUNNING THESE COMMANDS you need to be in the directory: ~root/restaurantSite
+- Make sure you have python installed and working
+- (python --version)
+- pip install pymongo==3.12.3
+- pip install pytz
+- pip install django
+- pip install djongo
+- pip install "pymongo[srv]"
 
-Needed installs:
-
-pymongo==3.12.3
-
-pytz
-
-djongo
-
-django
 
 Run the server: 
 
-python manage.py runserver
-Migrate the database:  python manage.py makemigrations, python manage.py migrate
+**FIRST cd to ~/Project/restaurantSite**
 
-Must create an admin user: 
+- python manage.py runserver
 
-python manage.py createsuperuser
+
+Other Commands:
+
+: Migrate the database
+: - python manage.py makemigrations, python manage.py migrate
+
+: Create admin user
+: - python manage.py createsuperuser
 This will allow you to create a local admin user
 
-going to ~siteDirectory/admin to see admin portal
+: Sites:
+: - Admin: ~siteDirectory/admin to see admin portal
+: - Menupage: / or /menuPage
