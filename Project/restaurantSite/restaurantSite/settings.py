@@ -55,7 +55,7 @@ ROOT_URLCONF = 'restaurantSite.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': ["restaurantSite/templates"],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
@@ -76,9 +76,13 @@ WSGI_APPLICATION = 'restaurantSite.wsgi.application'
 
 DATABASES = {
        'default': {
-           'ENGINE': 'djongo',
-           'NAME': 'restaurant-db',
-       }
+            'ENGINE': 'djongo',
+            'NAME': 'restaurant_db',
+            'ENFORCE_SCHEMA': False,
+            'CLIENT': {
+                'host': 'mongodb+srv://Admin2:RazorGamingMouse@cluster0.yl3tbkn.mongodb.net/'
+            }
+        }
    }
 
 
