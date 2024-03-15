@@ -1,6 +1,9 @@
-Djongo setup: https://www.mongodb.com/compatibility/mongodb-and-django
+Djongo setup:
+- https://www.mongodb.com/compatibility/mongodb-and-django
 
-Django documentation: https://docs.djangoproject.com/en/5.0/intro/tutorial02/, https://docs.djangoproject.com/en/5.0/intro/tutorial01/
+Django documentation: 
+- https://docs.djangoproject.com/en/5.0/intro/tutorial02/
+- https://docs.djangoproject.com/en/5.0/intro/tutorial01/
 
 How to run:
 **FIRST cd to ~/Project/restaurantSite**
@@ -21,15 +24,15 @@ Run the server:
 - python manage.py runserver
 
 
-Other Commands:
+**Other Commands:**
 
-: Migrate the database
-: - python manage.py makemigrations, python manage.py migrate
+Migrate the database
+- python manage.py makemigrations, python manage.py migrate
 
-: Create admin user
-: - python manage.py createsuperuser
+Create admin user
+- python manage.py createsuperuser
 This will allow you to create a local admin user
 
-: Sites:
-: - Admin: ~siteDirectory/admin to see admin portal
-: - Menupage: / or /menuPage
+Sites:
+- Admin: ~siteDirectory/admin to see admin portal
+- Menupage: / or /menuPage
