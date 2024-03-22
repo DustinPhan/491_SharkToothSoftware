@@ -1,14 +1,14 @@
-# Unneeded?
-# from django.http import HttpResponse
-
 from django.shortcuts import render, redirect
 from .forms import PersonForm
+from django.http import HttpResponse
 
 # Create your views here.
 def index(request):
-    print(request.path)
+    print(HttpRequest.path)
     #return HttpResponse("<head><title>" + HttpRequest.path[1:-1] + "</title></head><body><h1>test</h1></body>")
-    return render(request, "index.html")
+    #always include the header
+    myArr = [1,2,3]
+    return render(HttpRequest, "index.html", {"array": myArr})
 
 def person_data_view(request):
     if request.method == 'POST':
